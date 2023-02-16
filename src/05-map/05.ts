@@ -48,6 +48,7 @@ const devs4=people.map(man => ({
 let messages=people.map(man=>`Hello ${man.name.split(" ")[0]}. Welcome to IT_Incubator`)
 
 export const createGreetingMessage=(people:Array<ManType>)=>{
+
   return people.map(man=>`Hello ${man.name.split(" ")[0]}. Welcome to IT_Incubator`)
 
 }
